@@ -1,0 +1,7 @@
+Index of labor-negotiations
+
+02 Dec 1996      dir C4.5
+02 Dec 1996      218 Index
+15 Aug 1990     3198 labor-negotiations.names
+30 May 1989     6507 labor-negotiations.data
+30 May 1989     7116 labor-negotiations.test

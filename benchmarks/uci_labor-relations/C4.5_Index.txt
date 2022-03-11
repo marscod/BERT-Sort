@@ -1,0 +1,6 @@
+Index of C4.5
+
+02 Dec 1996      151 Index
+13 Jun 1995     2423 labor-neg.data
+13 Jun 1995     4032 labor-neg.names
+13 Jun 1995     1054 labor-neg.test

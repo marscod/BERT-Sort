@@ -1,0 +1,156 @@
+
+Third International Competition 
+
+Protecting rivers and streams by monitoring chemical concentrations and 
+algae communities.
+
+
+Intelligent Techniques for Monitoring Water Quality using chemical
+indicators and algae population
+
+Recent years have been characterised by increasing concern at the
+impact man is having on the environment.  
+The impact on the environment of toxic waste, from a wide variety
+of manufacturing processes, is well known. More recently, however,
+it has become clear that the more subtle effects of nutrient level
+and chemical balance changes arising from farming land run-off and
+sewage water treatment also have a serious, but indirect, effect on
+the states of rivers, lakes and even the sea.  In temperate climates
+across the world summers are characterized by numerous reports excessive
+summer algae growth resulting in poor water clarity, mass deaths of
+river fish from reduced oxygen levels and the closure of recreational
+water facilities on account of the toxic effects of this annual algal bloom.
+Reducing the impact of these man-made changes in river nutrient levels
+has stimulated much biological research with the aim of identifying
+the crucial chemical control variables for the biological
+processes.  
+
+The data used in this problem comes from one such study.
+During the research study water quality samples were
+taken from sites on different European rivers of a period of
+approximately one year.  These samples were analyzed for various
+chemical substances including: nitrogen in the form of nitrates,
+nitrites and ammonia, phosphate, pH, oxygen, chloride.
+In parallel, algae samples were collected to determine the algae population
+distributions. It is well known that the dynamics of the
+algae community is determined by external chemical 
+environment with one or more factors being predominant.
+While the chemical analysis is cheap and easily 
+automated, the biological part involves microscopic examination,
+requires trained manpower and is therefore both 
+expensive and slow. 
+
+Diatoms like Cymbella are major contributors to primary production
+throughout the world. The diatom reacts with 
+large sensitivity to even small changes in acidity . 
+
+Over a three and half billion year history algae have evolved and
+adapted as primary plant colonizers of almost 
+every known habitant in terrestrial and aquatic environments.
+They respond very rapidly to man-made environment changes.
+
+
+
+The relationship between the chemical and biological features is
+complex and can be expected to need the application of advanced
+techniques. Typical of such real-life problems, the particular
+data set for the problem contains a mixture of (fuzzy) qualiative
+variables and numerical measurement values, with much of the data
+being incomplete.
+
+The competition task is the prediction of algal frequency distributions
+on the basis of  the measured concentrations of the chemical
+substances and the global information concerning the season when the sample
+was taken, the river size and its flow velocity. The two last variables
+are given as linguistic variables.
+
+340 data sets were taken and each contain 17 values. The
+first 11 values of each data set are the season, the river
+size, the fluid velocity and 8 chemical concentrations which
+should be relevant for the algae population distribution.
+The last 8 values of each data set are the distribution of
+different kinds of algae. These 8 kinds are only a very small
+part of the whole community, but for the competition we limited
+the number to 7. The value 0.0 means that the frequency is very low.
+The data set also contains some empty fields which are labeled
+with the string XXXXX.
+
+Each participant in the competition receives 200 complete data sets
+(training data) and 140 data sets (evaluation data) containing only
+the 11 values of the river descriptions and the chemical concentrations.
+
+This training data is to be used in obtainin
+a 'model' providing a prediction of the algal distributions associated
+with the evaluation data.
+
+
+
+The training data are saved in the file:
+
+analysis.txt (ASCII format).
+
+Structure of the file analysis.txt
+
+A                          K              a                   g
+CC1,1   ...                CC1,11         AG1,1    ...        AG1,7
+....                        ...            ...                 ...
+
+
+CC200,1 ...                CC200,11       AG240,1  ...        AG240,7
+
+
+Explanation:
+CCi,j:  Chemical concentration    j=1,..11
+AGi,k: Algal frequency            k=1...7
+
+
+The chemical parameters are labeled as A, ..., K.
+The columns of the algaes are labeled as a, ..,g.
+
+
+Evaluation data are saved in file eval.txt (ASCII format).
+
+
+Table 2: Structure of the file eval.* 
+A                               K
+CC1,1     ...                   CC1,11
+
+.....                            ...
+                                
+CC140,1   ...                   CC140,11
+
+_____________________________________________________________
+
+Objective 
+
+The objective of the competition is to provide a prediction
+model on basis of the training data. Having obtained this
+prediction model, each participant must provide the solution
+in the form of the results of applying this model to the
+evaluation data. The results obtained in this way should
+correspond to the results of the evaluation data
+(which are known to the organizer). The criteria used to evaluate
+the results is given below.
+All 7 Algae frequency distributions must be determined.
+For this purpose any number of partial models may be developed.
+
+_____________________________________________________________
+
+Judgment of the results
+
+To judge the results, the sum of squared errors will be calculated.
+The following Table describes the results of a particular participant.
+
+Matrix of results
+a                     g
+
+Res1,1   ...          Res1,7
+
+....                   ...
+
+Res140,1              Res140,7
+
+
+All solutions that lead to a smallest total error will
+be regarded as winner of the contest. 
+

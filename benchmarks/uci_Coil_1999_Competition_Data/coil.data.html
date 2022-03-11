@@ -1,0 +1,202 @@
+<!------------------------------------------------------------------------
+<!  COIL 1999 Competition
+<!----------------------------------------------------------------------->
+<HTML>
+<HEAD>
+<TITLE> COIL 1999 Competition Data</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<!------------------------------------------------------------------------
+<!  Title 
+<!----------------------------------------------------------------------->
+<H1> COIL 1999 Competition Data </H1>
+
+<!------------------------------------------------------------------------
+<!  Data Type
+<!----------------------------------------------------------------------->
+<H2>Data Type</H2>
+multivariate
+
+<!------------------------------------------------------------------------
+<!  Abstract
+<!----------------------------------------------------------------------->
+<H2>Abstract</H2>
+<p>
+This data set is from the 1999 Computational Intelligence and Learning
+(COIL) competition. The data contains measurements of river chemical
+concentrations and algae densities. 
+
+
+<!------------------------------------------------------------------------
+<!  Sources
+<!----------------------------------------------------------------------->
+<H2> Sources</H2>
+<H4> Original Owner</H4>
+<PRE>
+<A HREF="http://www.erudit.de/">ERUDIT</A>
+European Network for Fuzzy Logic and Uncertainty Modelling
+in Information Technology
+</PRE>
+<H4> Donor</H4>
+<PRE>
+Jens Strackeljan
+Technical University Clausthal
+Institute of Applied Mechanics
+Graupenstr. 3, 38678 Clausthal-Zellerfeld, Germany
+<A HREF="mailto:tmjs@itm.tu-clausthal.de">tmjs@itm.tu-clausthal.de</A>
+</PRE>
+
+<B>Date Donated: </B> September 9, 1999
+
+
+
+<!------------------------------------------------------------------------
+<!  Data Characteristics 
+<!----------------------------------------------------------------------->
+<H2> Data Characteristics</H2>
+
+<p>
+This data comes from a water quality study where samples were
+taken from sites on different European rivers of a period of
+approximately one year.  These samples were analyzed for various
+chemical substances including: nitrogen in the form of nitrates,
+nitrites and ammonia, phosphate, pH, oxygen, chloride.
+In parallel, algae samples were collected to determine the algae population
+distributions. 
+
+<!------------------------------------------------------------------------
+<!  Other Relevant Information 
+<!----------------------------------------------------------------------->
+<H2> Other Relevant Information</H2>
+
+<p>
+The competition involved the prediction of algal frequency distributions
+on the basis of the measured concentrations of the chemical
+substances and the global information concerning the season when the sample
+was taken, the river size and its flow velocity. The competition 
+<A HREF = "instructions.txt">instructions</A> contain additional information 
+on the prediction task.
+</p>
+
+
+
+<!------------------------------------------------------------------------
+<!  Data Format 
+<!----------------------------------------------------------------------->
+<H2>Data Format</H2>
+
+<p>
+There are a total of 340 examples each containing 17 values. The
+first 11 values of each data set are the season, the river
+size, the fluid velocity and 8 chemical concentrations which
+should be relevant for the algae population distribution.
+The last 8 values of each example are the distribution of
+different kinds of algae. These 8 kinds are only a very small
+part of the whole community, but for the competition we limited
+the number to 7. The value 0.0 means that the frequency is very low.
+The data set also contains some empty fields which are labeled
+with the string XXXXX.
+
+	<P>The training data are saved in the file: <I>analysis.data</I> (ASCII format).</P> 
+	<P>Table 1: Structure of the file <I>analysis.data</I></P> 
+
+	<TABLE BORDER="1">
+	<TR>
+		<TD WIDTH="10%" VALIGN="top"> 
+		<P>A </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>K </P></TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>a </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P> g</P></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="10%" VALIGN="top"> 
+		<P>CC<SUB>1,1</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>CC<SUB>1,11</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>AG<SUB>1,1</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>AG<SUB>1,7</SUB> </P></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="10%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="10%" VALIGN="top"> 
+		<P>CC<SUB>200,1</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>CC<SUB>200,11</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>AG<SUB>200,1</SUB> </P></TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top">&nbsp;</TD>
+		<TD WIDTH="11%" VALIGN="top"> 
+		<P>AG<SUB>200,7</SUB> </P></TD>
+	</TR>
+	</TABLE>
+	<P>Explanation:<BR>
+		CC<SUB>i,j</SUB>: Chemical concentration or river characteristic<BR>
+		AG<SUB>i,j</SUB>: Algal frequency</P> 
+	<P>The chemical parameters are labeled as A, ..., K. The columns of the algaes are labeled as a,
+		..,g. </P> 
+
+
+<!------------------------------------------------------------------------
+<!  Past Usage 
+<!----------------------------------------------------------------------->
+<H2>Past Usage</H2>
+
+
+<p>
+<A HREF = "http://www.erudit.de/erudit/activities/ic-99/index.htm"> The Third (1999) International COIL Competition Home Page</A>
+</p>
+
+
+<!------------------------------------------------------------------------
+<!  Acknowledgements 
+<!----------------------------------------------------------------------->
+
+
+<!------------------------------------------------------------------------
+<!  References 
+<!----------------------------------------------------------------------->
+
+
+<!------------------------------------------------------------------------
+<!  Signature 
+<!----------------------------------------------------------------------->
+<p> <hr>
+<ADDRESS>
+<A href="http://kdd.ics.uci.edu/">The UCI KDD Archive</A> <br>
+<a href="http://www.ics.uci.edu/">Information and Computer Science</a> <br>
+<a href="http://www.uci.edu/">University of California, Irvine</a> <br>
+Irvine, CA 92697-3425 <br>
+</ADDRESS> 
+Last modified: October 13, 1999 
+</BODY>
+</HTML>
