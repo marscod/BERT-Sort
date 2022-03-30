@@ -16,3 +16,15 @@ The key of `target_files` represent task information such as data set filename, 
 The key of `ground_truth` is a dictionary where the keys are representing the feature name (if any) or feature index, and the values are a list of ranked ordinal values. 
 
 Each MLM folder includes a set of dumped pickles (`*.pkl`) which includes intermediate steps of BERT-Sort process and evaluation results for each data set. It includes `summary.csv` and `all_outputs.csv` for evaluation results of BERT-Sort on 10 data sets with 42 distinct features.
+
+## AuoML Folder
+This folder includes all AutoML evaluaion results based on i) raw data set, ii) encoded data set through BERT-Sort. Each experiment located in a file with one of the two following structures.
+
+### Raw data set Format
+`automl/<auoml_name>/<data set name>_<seed>_<time_limitaion>.txt`
+
+### BERT-Sort Encoded Data Set Format
+`automl/<auoml_name>/<data set name>_<seed>_<time_limitaion>_bs_<model_name>.csv.txt`
+
+Each file includes '<data set name> <seed> <training time> <prediction time> <score>'
+
