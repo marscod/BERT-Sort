@@ -1,7 +1,10 @@
 # BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML
-This repository provides artifacts for reproducing the results of BERT-Sort paper.
+This repository provides artifacts for reproducing the results of BERT-Sort paper.The artifacts include the following items.
 
-The artifacts include the following items.
+## Reproducibility Checklist
+The reproducibility checklist is available [here](https://github.com/marscod/BERT-Sort/blob/main/Reproducibility%20Checklist.pdf).
+
+
 ## Benchmarks Folder
 This folder includes 10 data sets that consists of both raw data set and encoded data set where it is encoded through BERT-Sort Encoder with MLM initialization of <img src="https://latex.codecogs.com/svg.latex?&space;M_{1..4}"/>. In each data set folder, there are original files and encoded data sets with 4 different MLMs. For instance, 'bank/bank.csv' is the original file for raw data set and `bank/bank.csv_bs__roberta.csv` is encoded raw data set with BERT-Sort Encoder which is initiated with RoBERTa MLM. Both raw and encoded data sets have been used to evaluate the proposed approach in 5 AutoML platforms.
 ## Output Folder
