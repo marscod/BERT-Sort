@@ -26,5 +26,5 @@ This folder includes all AutoML evaluaion results based on i) raw data set, ii) 
 ### BERT-Sort Encoded Data Set Format
 `automl/<auoml_name>/<data set name>_<seed>_<time_limitaion>_bs_<model_name>.csv.txt`
 
-Each file includes '<data set name> <seed> <training time> <prediction time> <score>'
+Each file includes `<data set name> <seed> <training time> <prediction time> <score>`
 
