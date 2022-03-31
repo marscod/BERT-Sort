@@ -32,7 +32,7 @@ This folder includes all AutoML evaluaion results based on i) raw data set, ii) 
 
 Each file includes `<data set name> <seed> <training time> <prediction time> <score>`
 
-The following seeds have been used to split both raw data sets and encoded data sets.
+The following seeds have been used to split both raw data sets and encoded data sets where we used [`sklearn.model_selection.train_test_split`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html).
 ```python
 one_seed = [108] #used in table 5 & figure 8
 four_seeds = [108, 180, 234, 309] #used in figure 8
