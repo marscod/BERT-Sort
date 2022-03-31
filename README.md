@@ -19,7 +19,7 @@ The key of `ground_truth` is a dictionary where the keys are representing the fe
 
 Each MLM folder includes a set of dumped pickles (`*.pkl`) which includes: i) input values, ii) OrdinalEncoder output, iii) intermediate steps and iv) final evaluation results of BERT-Sort process for each data set. 
 
-This folder also includes i) `all_outputs.csv`(detailed evaluation), and `summary.csv` (summary of each data set) for evaluation results of BERT-Sort on 10 data sets with 42 distinct features per MLM. For instance, `out_bert_base_uncased/all_outputs.csv` corresponds to detailed-results of _BERT-base_uncased_ MLM on all 42 features.
+This folder also includes i) `all_outputs.csv`(detailed-evaluation), and `summary.csv` (summary of each data set) for evaluation results of BERT-Sort on 10 data sets with 42 distinct features per MLM. For instance, `out_bert_base_uncased/all_outputs.csv` corresponds to detailed-results of _BERT-base_uncased_ MLM on all 42 features. A heatmap plot of _all_outputs.csv_ is available at `out_bert_base_uncased/all_outputs.png`.
 
 ## AuoML Folder
 This folder includes all AutoML evaluaion results based on i) raw data set, ii) encoded data set through BERT-Sort. Each experiment located in a file with one of the two following structures.
