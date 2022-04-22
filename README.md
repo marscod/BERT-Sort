@@ -38,4 +38,6 @@ one_seed = [108] #used in table 5 & figure 8
 four_seeds = [108, 180, 234, 309] #used in figure 8
 five_seeds =  ['108', '180', '234', '309', '533'] #used in figure 8
 ```
+## Experiment Artifacts for Rebuttal Version of the paper
+You may find all results of Table 5 and Table 6 in `https://anonymous.4open.science/r/BERT-Sort-067E/automl/<AUTOML>/*_m5_*.txt` (i.e., [`Nursery_108_m5_EncodedBERT.csv.txt`](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/Nursery_108_m5_EncodedBERT.csv.txt) refers to Nursery data set with seed 108 and encoded value through EncodedBERT approach. 
 
