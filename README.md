@@ -1,5 +1,5 @@
 # BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML
-This repository provides artifacts for reproducing the results of BERT-Sort paper.The artifacts include the following items.
+This repository provides artifacts for reproducing the results of BERT-Sort paper.The artifacts include the following items. 
 
 ## Reproducibility Checklist
 The reproducibility checklist is available [here](https://anonymous.4open.science/r/BERT-Sort-067E/Reproducibility%20Checklist.pdf).
