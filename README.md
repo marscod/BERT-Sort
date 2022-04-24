@@ -44,7 +44,7 @@ You may find all results of Table 5 and Table 6 in `https://anonymous.4open.scie
 ## Demo
 A demonstration of the process (normolized score for visualization).
 [Watch the Demo](https://anonymous.4open.science/r/BERT-Sort-067E/Demo1.mp4)
-<img src="Demo1.gif" width="100%"/>
+<img src="Demo1.gif" width="70%"/>
 
 
 
