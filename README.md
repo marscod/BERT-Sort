@@ -67,4 +67,7 @@ Requirements can be found in [automl/requirements.txt](https://anonymous.4open.s
 
 ## Docker
 Dear reviewers, 
+
 Although using [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) in Ubuntu machine will allow you to execute the codes, we are working on Dockerfile and will be added soon (update: 4/29/2022).
+
+
