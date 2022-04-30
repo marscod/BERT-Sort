@@ -48,5 +48,17 @@ A demonstration of the process (normolized score for visualization).
 [Watch the Demo](https://anonymous.4open.science/r/BERT-Sort-067E/Demo1.mp4)
 <img src="Demo1.gif" width="600px"/>
 
-
-
+## Reproducing AutoML Experiments
+Each AutoML folder include a code where it is producing the evaluation results per data set per encoded method per seed. Each folder contains `run.sh` that allows you to run the code. The following is a link to each code.
+- AutoGluon:
+  + [AutoGluon code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/autogluon_re.py)
+  + [AutoGluon run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/run.sh)
+- H2O:
+  + [H2O code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/h2o/h2o_re.py)
+  + [H2O run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/h2o/run.sh)
+- MLJAR:
+  + [MLJAR code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/mljar/mljar_re.py)
+  + [MLJAR run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/mljar/run.sh)
+- FLAML:
+  + [FLAML code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/flaml_re.py)
+  + [FLAML run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/run.sh)
