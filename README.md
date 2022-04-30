@@ -1,3 +1,4 @@
+### 🔥 Download this repository as a single ZIP [here](https://drive.google.com/file/d/12NMKMeL-9lKVBT-UvvsgECOo_0YjyGpd/view?usp=sharing) 🔥
 # BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML
 This repository provides artifacts for reproducing the results of BERT-Sort paper.The artifacts include the following items. 
 
@@ -111,3 +112,5 @@ By default it generates all results with 5 encoded data sets and each one with 4
 
 #### Paper Correction
 Line 129 (v3): <img src="correction.png" width="150px"/>
+
+### 🔥 Download this repository as a single ZIP [here](https://drive.google.com/file/d/12NMKMeL-9lKVBT-UvvsgECOo_0YjyGpd/view?usp=sharing) 🔥
