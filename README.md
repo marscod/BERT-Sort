@@ -80,6 +80,6 @@ Each AutoML will generate a set of text file (i.e., [autogluon/Nursery_108_m5_En
 ## Docker
 Dear reviewers, 
 
-Although using [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) in Ubuntu machine will allow you to execute the codes, we are working on Dockerfile and it will be added soon (update: 4/29/2022).
+Although using [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) in Ubuntu machine will allow you to execute the codes, we are working on Dockerfile and it will be added soon (update: [2pm AoE](https://www.timeanddate.com/time/zones/aoe) 4/29/2022).
 
 
