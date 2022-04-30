@@ -34,17 +34,19 @@ Each file includes `<data set name> <seed> <training time> <prediction time> <sc
 
 The following seeds have been used to split both raw data sets and encoded data sets where we used [`sklearn.model_selection.train_test_split`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html).
 ```python
-one_seed = [108] #used in table 5 & figure 8
-four_seeds = [108, 180, 234, 309] #used in figure 8
-five_seeds =  ['108', '180', '234', '309', '533'] #used in figure 8
+four_seeds = [108, 180, 234, 309]  # used in Table 5, Table 6, and Figure 8 (4 first values as seeds, 1 seed: 108)
+five_seeds =  ['108', '180', '234', '309', '533'] # used in Figure 8
 ```
 ## Experiment Artifacts for Rebuttal Version of the paper
-You may find all results of Table 5 and Table 6 in `https://anonymous.4open.science/r/BERT-Sort-067E/automl/<AUTOML>/<DATASET>_<SEED>_m5_*<METHOD>.txt` (i.e., [`Nursery_108_m5_EncodedBERT.csv.txt`](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/Nursery_108_m5_EncodedBERT.csv.txt) refers to Nursery data set with seed 108 and encoded value through EncodedBERT approach. \<SEEDS\> include `[108, 180, 234, 309]`,and \<METHOD\> includes 5 different datasets of `['Raw', 'EncodedBERT', 'bs_roberta', 'OrdinalEncoder', 'GroundTruth']`.
+You may find all results of Table 5 and Table 6 in `https://anonymous.4open.science/r/BERT-Sort-067E/automl/<AUTOML>/<DATASET>_<SEED>_m5_*<METHOD>.txt` (i.e., [`Nursery_108_m5_EncodedBERT.csv.txt`](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/Nursery_108_m5_EncodedBERT.csv.txt) refers to Nursery data set with seed 108 and encoded value through EncodedBERT approach. \<SEEDS\> include `[108, 180, 234, 309]`,and \<METHOD\> includes 5 different datasets of `['Raw', 'EncodedBERT', 'bs_roberta', 'OrdinalEncoder', 'GroundTruth']`. 
+
+Similarly, you can find the encoded versions of each data set per encoded method in `benchmark` folder: `benchmarks/<DATA SET>/FILE_<METHOD>.csv` (i.e., [uci_Pittsburgh_Bridges/bridges.data.version2.txt.csv_EncodedBERT.csv](https://anonymous.4open.science/r/BERT-Sort-067E/benchmarks/uci_Pittsburgh_Bridges/bridges.data.version2.txt.csv_EncodedBERT.csv)
+
 
 ## Demo
 A demonstration of the process (normolized score for visualization).
 [Watch the Demo](https://anonymous.4open.science/r/BERT-Sort-067E/Demo1.mp4)
-<img src="Demo1.gif" width="70%"/>
+<img src="Demo1.gif" width="600px"/>
 
 
 
