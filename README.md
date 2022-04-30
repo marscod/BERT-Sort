@@ -109,5 +109,5 @@ sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/autogluon --e
 
 By default it generates all results with 5 encoded data sets and each one with 4 seeds.
 
-## Paper Correction
-<img src="correction.png" width="100px"/>
+#### Paper Correction
+Line 129 (v3): <img src="correction.png" width="150px"/>
