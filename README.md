@@ -82,9 +82,9 @@ You may use [Dockerfile](https://anonymous.4open.science/r/BERT-Sort-067E/Docker
 1. Build the Docker from [build.sh](https://anonymous.4open.science/r/BERT-Sort-067E/build.sh) or execute the following commands.
 ```shell
 $(pwd) #this folder: BERT-Sort/
-
 sudo docker build -t automl .
 ```
+
 
 2. Run any AutoML on benchmark data sets by using shell scripts or execute the following commands.
 
