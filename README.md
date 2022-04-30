@@ -65,12 +65,12 @@ Requirements can be found in [automl/requirements.txt](https://anonymous.4open.s
   + [FLAML code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/flaml_re.py)
   + [FLAML run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/run.sh)
   
-How to run each AutoML experiment?
+### How to run each AutoML experiment?
 ```shell
-pwd #.../BERT-SORT/
-cd automl/h2o #other options: [mljar,flaml,autogluon]
+pwd     #.../BERT-SORT/
+cd automl/h2o     #other options: [mljar,flaml,autogluon]
 sh run.sh
-``
+```
 
 ### Outputs
 Each AutoML will generate a set of text file (i.e., [autogluon/Nursery_108_m5_EncodedBERT.csv.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/Nursery_108_m5_EncodedBERT.csv.txt) it also generates two folders of `output` and `log` where it collects intermediate results and output logs.
