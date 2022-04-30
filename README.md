@@ -77,9 +77,35 @@ Each AutoML will generate a set of text file (i.e., [autogluon/Nursery_108_m5_En
 
 
 
-## Docker
-Dear reviewers, 
+## Docker (updated)
+You may use [Dockerfile](https://anonymous.4open.science/r/BERT-Sort-067E/Dockerfile) to build a docker with 4 different AutoMLs which have been used in our experiment. You may also use the following shell scripts.
+1. Build the Docker from [build.sh](https://anonymous.4open.science/r/BERT-Sort-067E/build.sh) or execute the following commands.
+```shell
+$(pwd) #this folder: BERT-Sort/
 
-Although using [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) in Ubuntu machine will allow you to execute the codes, we are working on Dockerfile and it will be added soon (update: [2pm AoE](https://www.timeanddate.com/time/zones/aoe) 4/29/2022).
+sudo docker build -t automl .
+```
 
+2. Run any AutoML on benchmark data sets by using shell scripts or execute the following commands.
 
+2.1. FLAML: [run_flaml_docker.sh](https://anonymous.4open.science/r/BERT-Sort-067E/run_flaml_docker.sh)
+```shell
+sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/flaml --entrypoint python3 automl flaml_re.py
+```
+
+2.2. MLJAR : [run_mljar_docker.sh](https://anonymous.4open.science/r/BERT-Sort-067E/run_mljar_docker.sh)
+```shell
+sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/mljar --entrypoint python3 automl mljar_re.py
+```
+
+2.3. H2O : [run_h2o_docker.sh](https://anonymous.4open.science/r/BERT-Sort-067E/run_h2o_docker.sh)
+```shell
+sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/h2o --entrypoint python3 automl h2o_re.py
+```
+
+2.4. AutoGluon : [run_autogluon_docker.sh](https://anonymous.4open.science/r/BERT-Sort-067E/run_autogluon_docker.sh)
+```shell
+sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/autogluon --entrypoint python3 automl autogluon_re.py
+```
+
+By default it generates all results with 5 encoded data sets and each one with 4 seeds.
