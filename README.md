@@ -81,10 +81,9 @@ Each AutoML will generate a set of text file (i.e., [autogluon/Nursery_108_m5_En
 You may use [Dockerfile](https://anonymous.4open.science/r/BERT-Sort-067E/Dockerfile) to build a docker with 4 different AutoMLs which have been used in our experiment. You may also use the following shell scripts.
 1. Build the Docker from [build.sh](https://anonymous.4open.science/r/BERT-Sort-067E/build.sh) or execute the following commands.
 ```shell
-$(pwd) #this folder: BERT-Sort/
+$(pwd) # this folder: BERT-Sort
 sudo docker build -t automl .
 ```
-
 
 2. Run any AutoML on benchmark data sets by using shell scripts or execute the following commands.
 
