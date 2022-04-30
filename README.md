@@ -50,6 +50,8 @@ A demonstration of the process (normolized score for visualization).
 
 ## Reproducing AutoML Experiments
 Each AutoML folder include a code where it is producing the evaluation results per data set per encoded method per seed. Each folder contains `run.sh` that allows you to run the code. The following is a link to each code.
+Requirements can be found in [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) and task specification can be found in [automl/task_spec.json](https://anonymous.4open.science/r/BERT-Sort-067E/automl/task_spec.json).
+
 - AutoGluon:
   + [AutoGluon code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/autogluon_re.py)
   + [AutoGluon run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/autogluon/run.sh)
@@ -62,3 +64,7 @@ Each AutoML folder include a code where it is producing the evaluation results p
 - FLAML:
   + [FLAML code](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/flaml_re.py)
   + [FLAML run script](https://anonymous.4open.science/r/BERT-Sort-067E/automl/flaml/run.sh)
+
+## Docker
+Dear reviewers, 
+Although using [automl/requirements.txt](https://anonymous.4open.science/r/BERT-Sort-067E/automl/requirements.txt) in Ubuntu machine will allow you to execute the codes, we are working on Dockerfile and will be added soon (update: 4/29/2022).
