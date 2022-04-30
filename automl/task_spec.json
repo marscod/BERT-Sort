@@ -1,0 +1,63 @@
+{
+	"audiology" : {
+		"target_dataset": "uci-audiology-original/audiology.standardized.data.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}, 
+	"cat-in-the-dat-ii" :{
+		"target_dataset": "cat-in-the-dat-ii/train.csv",
+		"task": "classification", 
+		"ignore" : ["id"],
+		"metric": "F1", 
+		"target_feature": ["target"]
+	}, 
+	"bank": {
+        	"target_dataset": "bank/bank.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": ["y"]
+	},
+	"car_eval" :{
+		"target_dataset": "uci_car_evaluation/car.data.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}, 
+	"Coil_1999" : {
+		"target_dataset": "uci_Coil_1999_Competition_Data/analysis.data.csv",
+		"task": "regression", 
+		"metric": "RMSE", 
+		"target_feature": [-1, -2, -3, -4, -7]
+	},
+	"uci-automobile" : {
+		"target_dataset": "uci-automobile/imports-85.data.csv",
+		"task": "regression", 
+		"metric": "RMSE", 
+		"target_feature": [-1]
+	}, 
+	"labor-relations" : {
+		"target_dataset": "uci_labor-relations/C4.5_labor-neg.data.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}, 
+	"Nursery" : {
+		"target_dataset": "uci_Nursery/nursery.data.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}, 
+	"Post-Operative" : {
+		"target_dataset": "uci_Post-Operative-Patient/post-operative.data.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}, 
+	"Pittsburgh_Bridges" : {
+		"target_dataset": "uci_Pittsburgh_Bridges/bridges.data.version2.txt.csv",
+		"task": "classification", 
+		"metric": "F1", 
+		"target_feature": [-1]
+	}
+}
