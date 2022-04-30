@@ -229,5 +229,5 @@ for seed in seeds[:max_seeds]:
                                                   subfolder_name, tail))
                 with open(logfile, 'w') as f:
                     f.write(traceback.format_exc())
-                raise
+                continue
                 
