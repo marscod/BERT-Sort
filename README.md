@@ -1,6 +1,7 @@
-### 🔥 Download this repository as a single ZIP [here](https://drive.google.com/file/d/12NMKMeL-9lKVBT-UvvsgECOo_0YjyGpd/view?usp=sharing) 🔥
-# BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML
-This repository provides artifacts for reproducing the results of BERT-Sort paper.The artifacts include the following items. 
+# 🔥  BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML 
+This repository provides artifacts for reproducing the results of BERT-Sort paper. The artifacts include the following items. 
+
+BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
 
 ## Reproducibility Checklist
 The reproducibility checklist is available [here](https://anonymous.4open.science/r/BERT-Sort-067E/Reproducibility%20Checklist.pdf).
@@ -110,7 +111,18 @@ sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/autogluon --e
 
 By default it generates all results with 5 encoded data sets and each one with 4 seeds.
 
-#### Paper Correction
-Line 129 (v3): <img src="correction.png" width="150px"/>
+#### Citation
+Bahrami, Mehdi, Wei-Peng Chen, Lei Liu, and Mukul Prasad, _"BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML" First Conference on Automated Machine Learning (Main Track). 2022.
 
-### 🔥 Download this repository as a single ZIP [here](https://drive.google.com/file/d/12NMKMeL-9lKVBT-UvvsgECOo_0YjyGpd/view?usp=sharing) 🔥
+```
+@inproceedings{bahrami2022bert,
+  title={BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML},
+  author={Bahrami, Mehdi and Chen, Wei-Peng and Liu, Lei and Prasad, Mukul},
+  booktitle={First Conference on Automated Machine Learning (Main Track)},
+  year={2022}
+}
+```
+
+
+
+
