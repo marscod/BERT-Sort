@@ -1,10 +1,14 @@
 # 🔥  BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML 
-This repository provides artifacts for reproducing the results of BERT-Sort paper. The artifacts include the following items. 
+This repository provides artifacts for reproducing the results of BERT-Sort paper. 
 
 BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
 
-## Reproducibility Checklist
-The reproducibility checklist is available [here](https://github.com/marscod/BERT-Sort/tree/main/Reproducibility%20Checklist.pdf).
+## Demo
+A demonstration of the process (normolized score for visualization).
+[Watch the Demo](https://github.com/marscod/BERT-Sort/tree/main/Demo1.mp4)
+<img src="https://github.com/marscod/BERT-Sort/blob/main/Demo1.gif" width="600px"/>
+
+The artifacts include the following items. 
 
 ## Benchmarks Folder
 This folder includes 10 data sets that consists of both raw data set and encoded data set where it is encoded through BERT-Sort Encoder with MLM initialization of <img src="https://latex.codecogs.com/svg.latex?&space;M_{1..4}"/>. 
@@ -45,10 +49,8 @@ You may find all results of Table 5 and Table 6 in `/automl/<AUTOML>/<DATASET>_<
 Similarly, you can find the encoded versions of each data set per encoded method in `benchmark` folder: `benchmarks/<DATA SET>/FILE_<METHOD>.csv` (i.e., [uci_Pittsburgh_Bridges/bridges.data.version2.txt.csv_EncodedBERT.csv](https://github.com/marscod/BERT-Sort/tree/main/benchmarks/uci_Pittsburgh_Bridges/bridges.data.version2.txt.csv_EncodedBERT.csv)
 
 
-## Demo
-A demonstration of the process (normolized score for visualization).
-[Watch the Demo](https://github.com/marscod/BERT-Sort/tree/main/Demo1.mp4)
-<img src="Demo1.gif" width="600px"/>
+## Reproducibility Checklist
+The reproducibility checklist is available [here](https://github.com/marscod/BERT-Sort/tree/main/Reproducibility%20Checklist.pdf).
 
 ## Reproducing AutoML Experiments
 Each AutoML folder include a code where it is producing the evaluation results per data set per encoded method per seed. Each folder contains `run.sh` that allows you to run the code. The following is a link to each code.
