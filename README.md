@@ -6,7 +6,7 @@ BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](http
 ## Demo
 A demonstration of the process (normalized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
 
-<img src="Demo1.gif" width="600px"/>
+<img src="https://github.com/marscod/BERT-Sort/blob/main/Demo1.gif" width="600px"/>
 
 [Download/Watch the Demo](https://github.com/marscod/BERT-Sort/tree/main/Demo1.mp4)
 
