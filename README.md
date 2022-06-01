@@ -4,7 +4,7 @@ This repository provides artifacts for reproducing the results of BERT-Sort pape
 BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
 
 ## Demo
-A demonstration of the process (normolized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
+A demonstration of the process (normalized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
 
 <img src="https://github.com/marscod/BERT-Sort/blob/main/Demo1.gif" width="600px"/>
 
@@ -21,7 +21,7 @@ In each data set folder, there are original files and encoded data sets with 4 d
 This folder includes the configuration files, ground truth and evaluation results. Each folder in `output` contains a configuration file as `config.json` with a set of keys of
 `['model', 'mask', 'separator', 'eta', 'lower', 'target_files', 'ground_truth', 'default_grouping', 'default_zeta', 'preprocess']`. For instance, 'outputs/out_bert_base_uncased/config.json' includes all hyperparameters, configuration, ground truth of 42 features, task specification (regression/classification)  for `BERT-base_uncased MLM`.
 
-The key of `target_files` represent task information such as data set filename, a URL reference, type of task (classification or regression for AutoML evaluation), type of evaluation metric (F1 or RMSE). 
+The key of `target_files` represents task information such as data set filename, a URL reference, type of task (classification or regression for AutoML evaluation), type of evaluation metric (F1 or RMSE). 
 
 The key of `ground_truth` is a dictionary where the keys are representing the feature name (if any) or feature index, and the values are a list of ranked ordinal values. 
 
@@ -30,7 +30,7 @@ Each MLM folder includes a set of dumped pickles (`*.pkl`) which includes: i) in
 This folder also includes i) `all_outputs.csv`(detailed-evaluation), and `summary.csv` (summary of each data set) for evaluation results of BERT-Sort on 10 data sets with 42 distinct features per MLM. For instance, `out_bert_base_uncased/all_outputs.csv` corresponds to detailed-results of _BERT-base_uncased_ MLM on all 42 features. A heatmap plot of _all_outputs.csv_ is available at `out_bert_base_uncased/all_outputs.png`.
 
 ## AuoML Folder
-This folder includes all AutoML evaluaion results based on i) raw data set, ii) encoded data set through BERT-Sort. Each experiment located in a file with one of the two following structures.
+This folder includes all AutoML evaluation results based on i) raw data set, ii) encoded data set through BERT-Sort. Each experiment is located in a file with one of the two following structures.
 
 ### Raw data set Format
 `automl/<auoml_name>/<data set name>_<seed>_<time_limitaion>.txt`
@@ -55,7 +55,7 @@ Similarly, you can find the encoded versions of each data set per encoded method
 The reproducibility checklist is available [here](https://github.com/marscod/BERT-Sort/tree/main/Reproducibility%20Checklist.pdf).
 
 ## Reproducing AutoML Experiments
-Each AutoML folder include a code where it is producing the evaluation results per data set per encoded method per seed. Each folder contains `run.sh` that allows you to run the code. The following is a link to each code.
+Each AutoML folder includes a code where it is producing the evaluation results per data set per encoded method per seed. Each folder contains `run.sh` that allows you to run the code. The following is a link to each code.
 Requirements can be found in [automl/requirements.txt](https://github.com/marscod/BERT-Sort/tree/main/automl/requirements.txt) and task specification can be found in [automl/task_spec.json](https://github.com/marscod/BERT-Sort/tree/main/automl/task_spec.json).
 
 - AutoGluon:
