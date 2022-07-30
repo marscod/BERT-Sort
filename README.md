@@ -3,6 +3,9 @@ This repository provides artifacts for reproducing the results of BERT-Sort pape
 
 BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
 
+....[2 Min video](https://www.youtube.com/watch?v=S-YPAe1-cr8),  [Full-video](https://www.youtube.com/watch?v=1xQvbpjVaBs) and [Poster](https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_v3_Poster.pdf)....
+
+
 ## Demo
 A demonstration of the process (normalized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
 
