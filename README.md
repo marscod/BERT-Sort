@@ -1,7 +1,7 @@
 # 🔥  BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML 
-This repository provides artifacts for reproducing the results of BERT-Sort paper. 
 
-BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
+> <b>Discover the semantic order between values by utilizing BERT models in a zero-shot setting. Yes, without labeled data!</b>
+
 
 [<img
   src="https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_Poster_Bahrami_et_al_AutoML_2022.png"
@@ -13,14 +13,16 @@ BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](http
 ....[2 Min video](https://www.youtube.com/watch?v=S-YPAe1-cr8),  [Full-video](https://www.youtube.com/watch?v=1xQvbpjVaBs) and [Poster](https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_v3_Poster.pdf)....
 
 
+BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
+
+
 ## Demo
 A demonstration of the process (normalized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
 
 
 <img src="https://github.com/marscod/BERT-Sort/blob/main/Demo1.gif" width="600px"/>
 
-
-[Download/Watch the Demo](https://github.com/marscod/BERT-Sort/tree/main/Demo1.mp4")
+This repository provides artifacts for reproducing the results of BERT-Sort paper. 
 
 The artifacts include the following items. 
 
