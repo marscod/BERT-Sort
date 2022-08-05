@@ -3,6 +3,13 @@ This repository provides artifacts for reproducing the results of BERT-Sort pape
 
 BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
 
+[<img
+  src="https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_Poster_Bahrami_et_al_AutoML_2022.png"
+  alt="BERT-Sort Bahrami et al., AutoML 2022"
+  title="BERT-Sort Bahrami et al., AutoML 2022"
+  style="display: inline-block; margin: 0 auto; width:40%;"
+  class="center">](https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_v3_Poster.pdf)
+  
 ....[2 Min video](https://www.youtube.com/watch?v=S-YPAe1-cr8),  [Full-video](https://www.youtube.com/watch?v=1xQvbpjVaBs) and [Poster](https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_v3_Poster.pdf)....
 
 
