@@ -13,8 +13,7 @@
 ....[2 Min video](https://www.youtube.com/watch?v=S-YPAe1-cr8),  [Full-video](https://www.youtube.com/watch?v=1xQvbpjVaBs) and [Poster](https://github.com/marscod/BERT-Sort/blob/main/BERT-Sort_v3_Poster.pdf)....
 
 
-BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
-
+BERT-Sort Paper is available at [https://proceedings.mlr.press/v188/bahrami22a](https://proceedings.mlr.press/v188/bahrami22a)
 
 ## Demo
 A demonstration of the process (normalized score for visualization) for sorting 4 values of months' abbreviations `['Mar','Jan','May','Feb']`.
@@ -130,15 +129,17 @@ sudo docker run --rm -v $(pwd):/BERT-Sort -it -w /BERT-Sort/automl/autogluon --e
 By default it generates all results with 5 encoded data sets and each one with 4 seeds.
 
 #### Citation
-Bahrami, Mehdi, Wei-Peng Chen, Lei Liu, and Mukul Prasad, _"BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML" First Conference on Automated Machine Learning (Main Track). 2022.
+Bahrami, Mehdi, et al. "BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML." International Conference on Automated Machine Learning. PMLR, 2022.
 
 ```
 @inproceedings{bahrami2022bert,
   title={BERT-Sort: A Zero-shot MLM Semantic Encoder on Ordinal Features for AutoML},
   author={Bahrami, Mehdi and Chen, Wei-Peng and Liu, Lei and Prasad, Mukul},
-  booktitle={First Conference on Automated Machine Learning (Main Track)},
-  year={2022}
+  booktitle={International Conference on Automated Machine Learning},
+  pages={11--1},
+  year={2022},
+  organization={PMLR}
 }
 ```
 
-BERT-Sort Paper is available at [https://openreview.net/pdf?id=BCM8G-pSLe9](https://openreview.net/pdf?id=BCM8G-pSLe9)
+BERT-Sort Paper is available at [https://proceedings.mlr.press/v188/bahrami22a](https://proceedings.mlr.press/v188/bahrami22a)
